@@ -13,6 +13,9 @@
 		ACCB18E423F19407000C9132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCB18E223F19407000C9132 /* Main.storyboard */; };
 		ACCB18E623F19408000C9132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCB18E523F19408000C9132 /* Assets.xcassets */; };
 		ACCB18E923F19408000C9132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCB18E723F19408000C9132 /* LaunchScreen.storyboard */; };
+		ACCB18F123F19552000C9132 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB18F023F19552000C9132 /* Ball.swift */; };
+		ACCB18F323F196FB000C9132 /* ObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB18F223F196FB000C9132 /* ObjectManager.swift */; };
+		ACCB18F623F199F0000C9132 /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCB18F523F199F0000C9132 /* ball2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ACCB18E523F19408000C9132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCB18E823F19408000C9132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACCB18EA23F19408000C9132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCB18F023F19552000C9132 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		ACCB18F223F196FB000C9132 /* ObjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectManager.swift; sourceTree = "<group>"; };
+		ACCB18F523F199F0000C9132 /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		ACCB18D023F19407000C9132 = {
 			isa = PBXGroup;
 			children = (
+				ACCB18F423F199E1000C9132 /* images */,
 				ACCB18DB23F19407000C9132 /* BoundBox */,
 				ACCB18DA23F19407000C9132 /* Products */,
 			);
@@ -63,8 +70,18 @@
 				ACCB18E523F19408000C9132 /* Assets.xcassets */,
 				ACCB18E723F19408000C9132 /* LaunchScreen.storyboard */,
 				ACCB18EA23F19408000C9132 /* Info.plist */,
+				ACCB18F023F19552000C9132 /* Ball.swift */,
+				ACCB18F223F196FB000C9132 /* ObjectManager.swift */,
 			);
 			path = BoundBox;
+			sourceTree = "<group>";
+		};
+		ACCB18F423F199E1000C9132 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB18F523F199F0000C9132 /* ball2.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCB18E923F19408000C9132 /* LaunchScreen.storyboard in Resources */,
+				ACCB18F623F199F0000C9132 /* ball2.png in Resources */,
 				ACCB18E623F19408000C9132 /* Assets.xcassets in Resources */,
 				ACCB18E423F19407000C9132 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCB18F123F19552000C9132 /* Ball.swift in Sources */,
 				ACCB18E123F19407000C9132 /* ViewController.swift in Sources */,
+				ACCB18F323F196FB000C9132 /* ObjectManager.swift in Sources */,
 				ACCB18DD23F19407000C9132 /* AppDelegate.swift in Sources */,
 				ACCB18DF23F19407000C9132 /* SceneDelegate.swift in Sources */,
 			);
